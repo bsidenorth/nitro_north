@@ -25,18 +25,11 @@
   html{-webkit-text-size-adjust:100%;}
 
   body{
-    background:
-      linear-gradient(var(--bg),var(--bg)),
-      repeating-linear-gradient(0deg,#0d1116 0 1px,transparent 1px 48px),
-      repeating-linear-gradient(90deg,#0d1116 0 1px,transparent 1px 48px);
     background-color:var(--bg);
     color:var(--text);
     font-family:'IBM Plex Mono',ui-monospace,monospace;
     font-size:clamp(0.9rem,0.4vw + 0.82rem,1rem);
     line-height:1.65;
-    padding:clamp(20px,5vw,48px) clamp(14px,4vw,20px);
-    display:flex;
-    justify-content:center;
     overflow-x:hidden;
   }
 
@@ -45,10 +38,9 @@
 
   .sheet{
     width:100%;
-    max-width:920px;
-    border:1px solid var(--line);
-    background:var(--panel-2);
-    padding:clamp(24px,5vw,64px) clamp(18px,5vw,56px);
+    max-width:1180px;
+    margin:0 auto;
+    padding:clamp(24px,5vw,56px) clamp(18px,5vw,48px);
   }
 
   header{
